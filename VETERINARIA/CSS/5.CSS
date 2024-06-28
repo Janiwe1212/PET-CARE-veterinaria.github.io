@@ -1,0 +1,132 @@
+#contenedor {
+    width: 1200px;
+    margin: auto;
+ }
+ header {
+     padding: 20px 30px;
+    }
+ h1{ font-size: 90px; margin: 0;
+   font-family: "Merriweather", serif;
+   font-weight: 700;
+   font-style: normal;  }
+ #uno{
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+ }
+ #uno #logo {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ #uno nav {
+    width: 80%;
+    display: inline-block;
+    text-align: right;
+ }
+ #uno #logo img {
+    width: 100px;
+    height: auto;
+ }
+ #uno a {
+    color: #000;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 0 20px;
+    font-family: "Merriweather", serif;
+   font-weight: 700;
+   font-style: normal; 
+ }
+ .parrafo { font-size: 30px;
+       padding: 20px;
+       width: 450px;
+    border-right: #000 solid 3px;} 
+.contacto{
+    float: right;
+    font-size: 30px;
+       padding: 20px;
+       width: 400px;;
+} 
+ 
+     
+     
+ 
+ #cubo{
+    height:  100px;
+    width: 500px;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid black;
+ }
+ 
+ .boton{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    font-weight: 700px;
+    background-color:blue ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Merriweather", serif;
+   font-weight: 700;
+   font-style: normal; 
+    }
+    .boton{
+      float: right;
+    }
+     footer {
+       background: white;
+       padding: 20px;
+       clear: both;
+       
+   }
+   footer:hover{
+      background: aqua;
+      transition-duration:2s,1s ;
+    }
+ footer div {
+   width: 16%;
+   display: inline-block;
+   text-align: center;
+   font-family: "Merriweather", serif;
+   font-weight: 700;
+   font-style: normal; 
+ }
+ header>p{
+   
+   font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 313;
+   font-style: normal;
+ 
+ }
+ #uno{
+   background-color: white;
+   padding: 10px 20px;
+   margin-top: 30px;}
+   #uno:hover{
+      background-color: blue;
+      transition-duration:2s,1s ;
+   }
+   h1{ font-size: 90px; margin: 0;
+ 
+      font-family: "Merriweather", serif;
+      font-weight: 700;
+      font-style: normal; 
+   animation-name: titulo;
+   animation-duration: 2s;
+   position: relative;}
+   @keyframes titulo{
+      0%{
+      transform: translatex(-500px) scale(2,2);
+      }
+      100%{
+         transform: translatex(0px)scale(1,1);
+      }
+   }
+ 
